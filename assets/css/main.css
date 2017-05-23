@@ -1,8 +1,60 @@
 /*
 Colors: 
-#E54E79;
+
 #E56385;
 #00B2A9;
 #75726C;
 #EDE9E2
 */
+*{
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+    background-color: #E54E79;
+    width: 100%;
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.67);
+    position: fixed;
+    z-index: 1000;
+    height: 40px;
+}
+
+.lyft-logo{
+
+    width: 47px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: -18px;
+}
+
+ul{
+    list-style: none;
+    /*no se muestre el simbolo delante de los elementos*/
+    margin: 0;
+    padding: :0;
+    overflow: :hidden;
+}
+li{
+    list-style: none;
+    margin-top:-55px;
+    margin-right: 130px;
+  }
+
+ul li a{  
+    color: #FFF;    
+    font-size: 17px;
+    text-decoration: none;/*quita la linea bajo el enlace y da color*/
+    display: inline;
+    float: right;
+    padding: 5px;
+    padding-right: 18px;
+        }
+
+.fondo{
+    margin-top: 18px;
+    width: 100%;
+}
+-------------------------------------------
+/* USAR FIXED PARA la caja de identif*/

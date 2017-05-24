@@ -23,35 +23,46 @@
 
 
 	<header> 
-		<div>
+		<div> <!--imagen de fondo efecto parallax-->
 			 <img class="fondo" src="assets/img/cropped-Lyft-Promo-Codes-car-1.jpg">	
 		</div>
-		<div class="header">
+		<div class="header"> <!--cajita formulario-->
 			<form>
-				<h1>TURN MILES INTO MONEY</h1>
-				<h2>SIGN UP TO DRIVE LYFT</h2>
-				<input type="text" required placeholder="Phone number">
+				<h1 id="mile">TURN MILES INTO MONEY</h1>
+				<h2 id="signup">SIGN UP TO DRIVE LYFT</h2>
+				<input type="text" required placeholder="Phone Number">
       			<span class="highlight"></span>
       			<span class="bar"></span>
-      			<button id="sign-up">BECOME A DRIVER<i class="fa fa-heart" aria-hidden="true"></i></button>
+      			<button id="botonDriver">BECOME A DRIVER <i class="fa fa-heart" aria-hidden="true"></i></button> <!--corazon icono-->
 				<p id="l1">Already applied? Check the status of your application here.</p>
 				<p id="l2">Earn money for inviting friends to drive.Learn more.</p>
 			</form>
 		</div>
 	</header>
+	<section>
+		<div class="play">
+			<h1>PLAY WITH LYFT</h1>			
+		</div>
+		<div class="input-cars">
+			<div id="xinput">
+				<label><i class="fa fa-car" aria-hidden="true"></i></label>
+				<input type="text" required placeholder="X Cordinate">
+		      	<span class="highlight"></span>
+		      	<span class="bar"></span>
+		    </div>
+		    <div id="yinput">
+				<label><i class="fa fa-car" aria-hidden="true"></i></label>
+		      	<input type="text" required placeholder="Y Cordinate">
+		      	<span class="highlight"></span>
+		      	<span class="bar"></span>
+		    </div>
+		   <button id="start">START</button>
+	</section>
 
 	<div class="footer">
 		<p id="pLyL">&copy;2017 Lyft & Laboratoria .Inc</p>
-		<p id="pLinks">More Links</p>
-	</div>
-	<div class="footer-icons">
-		<ul class="soc">
-			    <li><a class="soc-twitter" href="#"></a></li>
-			    <li><a class="soc-facebook" href="#"></a></li>
-			    <li><a class="soc-instagram" href="#"></a></li>
-			    <li><a class="soc-github soc-icon-last" href="#"></a></li>
-			</ul>
-	</div>
+		<p id="pLink">Developed by <a href="https://github.com/ValSaavedra"> Val Saavedra</a></p>
+		</div>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
